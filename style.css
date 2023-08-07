@@ -1,0 +1,18 @@
+
+
+/* CSS rules in style.css */
+.VirtualizedSelectOption {
+    background-color: black;
+    color: #42F545;
+}
+
+.Select--single,
+.Select-value {
+    color: #42F545;
+    background-color: black;
+	border: 1px solid #42F545;
+}
+
+.Select--single > .Select-control .Select-value {
+    color: #42F545 !important;
+}
